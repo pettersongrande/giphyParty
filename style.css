@@ -12,7 +12,7 @@
 }
 
 input {
-    width: 100%;
+    width: 30em;
     height: 2em;
     
 }
@@ -27,4 +27,6 @@ input {
 
 }
 
-
+button {
+    align-items: center;
+}
