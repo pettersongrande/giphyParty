@@ -32,6 +32,8 @@ function newImgFunc(imgUrl){
     const newGiphy = document.createElement('IMG');
     newGiphy.src = imgUrl;
     newGiphy.classList.add('imgBox');
+    newGiphy.style.height = '25em';
+    newGiphy.style.width = '25em';
     gifsSection.append(newGiphy);
 };
 

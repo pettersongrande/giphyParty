@@ -29,4 +29,24 @@ input {
 
 button {
     align-items: center;
+    cursor: pointer;
+}
+
+@media (min-width: 450px){
+    .imgBox{
+
+        
+        border-radius: 10%;
+        border: 1px solid;
+        border-color: orangered;
+        margin: auto;
+        width: 20%;
+        padding: 5px;
+    
+    }
+
+    #pageTitle{
+        font-size: 10em;
+        
+    }
 }
